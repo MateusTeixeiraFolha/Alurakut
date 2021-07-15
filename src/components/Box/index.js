@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 const Box = styled.div`
-  background: #FFFFFF;
+  background: black;
+  color: white;
   border-radius: 8px;
   padding: 16px;
   /* CSS Pré-Pronto */
@@ -26,7 +27,7 @@ const Box = styled.div`
     margin-bottom: 20px;
     font-size: 16px;
     font-weight: 700;
-    color: #333333;
+    color: white;
     margin-bottom: 20px;
   }
   hr {
@@ -37,23 +38,23 @@ const Box = styled.div`
   }
   input {
     width: 100%;
-    background-color: #F4F4F4;
-    color: #333333;
-    border: 0;
+    background-color: black;
+    color: white;
+    border: solid 3px grey;
     padding: 14px 16px;
     margin-bottom: 14px;
     border-radius: 10000px;
     ::placeholder {
-      color: #333333;
+      color: white;
       opacity: 1;
     }
   }
   button {
-    border: 0;
+    border: solid 3px grey;
     padding: 8px 12px;
-    color: #FFFFFF;
+    color: white;
     border-radius: 10000px;
-    background-color: #6F92BB;
+    background-color: black;
   }
 `; 
 
